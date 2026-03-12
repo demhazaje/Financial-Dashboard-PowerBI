@@ -1,37 +1,32 @@
-# Financial-Dashboard-PowerBI
-
 # The Finance Group: Financial Health Power BI Dashboard
 
-## 📌 Project Overview
-This repository contains my complete solution for a Data Analyst case study centered around "The Finance Group". The primary objective of this project was to design and deliver a monthly-level interactive Power BI dashboard to monitor the company's financial health and key performance indicators (KPIs). 
+## 📌 Project Explanation
+This project is a data analyst case study focused on creating a monthly-level interactive financial dashboard for a client called "The Finance Group." The goal was to provide an automated, visual way for leadership to monitor the company's financial health, liquidity, and operational efficiency across different regions.
 
-## 🛠️ Tools & Technologies Used
-* **Business Intelligence:** Microsoft Power BI (`.pbix`)
-* **Data Source:** Microsoft Excel (`.xlsx`) / CSV
-* **Reporting:** Microsoft Word (`.docx`)
+## 📋 Requirements
+* Design an interactive dashboard with time-period and categorical selectors.
+* Display high-level KPI cards for Revenue, Gross Margin %, EBITDA %, and Net Cash.
+* Build specific visuals including a Cash Flow Waterfall, Budget vs. Actual variance, and Receivables Aging.
+* Ensure data accuracy and document all logic and assumptions in a summary report.
 
-## 📂 Repository Contents
-* **`5. Data Analyst Case Study Data.pbix`**: The interactive Power BI dashboard containing the visual analysis, KPI cards, and financial models.
-* **`Data Analyst -Case Study Data.xlsx`**: The raw dataset containing Monthly P&L Data, Cash Flow Data, Sales Data, Receivables & Payables Aging, and Budget vs Actuals.
-* **`Report.docx`**: A detailed 1-page executive summary explaining the logic, methodology, and key business insights derived from the dashboard.
-* **`PowerBI Case Study.docx`**: The original project requirements and objective document.
+## 🛠️ Tools & Technologies
+* **Business Intelligence:** Microsoft Power BI
+* **Data Manipulation:** DAX (Data Analysis Expressions), Power Query
+* **Data Source:** Microsoft Excel / CSV
 
-## 📊 Dashboard Features & Metrics
-The dashboard was built to provide highly actionable financial insights, fulfilling the following technical requirements:
-* **Time-Period & Categorical Selectors:** Interactive filters allowing users to slice data by month, quarter, year, region, and product category.
-* **Executive KPI Cards:** High-level tracking of Revenue, Gross Margin %, EBITDA %, and Net Cash.
-* **Comprehensive Visuals:** * Revenue & Profit Trend analysis.
-  * Budget vs Actual variance % tracking.
-  * Cash Flow Waterfall chart to monitor liquidity.
-  * Product/Service performance breakdowns and Receivables Aging.
-* **Drill-down Functionality:** Allows users to click on a specific month to see granular, category-level data.
+## 🚧 Challenges Faced
+* **Advanced DAX Formulation:** Calculating dynamic measures like Budget Variance % and ensuring profitability ratios (EBITDA %, Gross Margin %) filtered correctly across different regional drill-downs required complex DAX logic.
+* **Visualizing Liquidity:** Formatting the Cash Flow Waterfall chart to accurately reflect starting cash, inflows, outflows, and ending net cash required precise data structuring in Power Query.
 
-## 💡 Key Business Insights
-Based on the data analysis, several key observations regarding The Finance Group's operational health were documented in the executive report:
-* **Stable Revenue Stream:** The company maintains a highly predictable revenue model, generating approximately $2M consistently every month.
-* **Profitability & Operational Health:** Despite underperforming against an aggressive budget by 24%, the company's operational health remains strong, boasting a 45.6% Gross Margin and a 24.8% EBITDA margin.
-* **Liquidity:** The Cash Flow Waterfall visual indicates stable liquidity, with no negative dips in monthly cash flow. 
-* **Methodology Highlight:** Profitability ratios (Gross Margin % and EBITDA %) were prioritized over raw values to allow for direct efficiency comparisons across the North, South, East, and West regions.
+## 💡 Key Insights
+* **Revenue Stability:** The company maintains a highly predictable revenue stream, generating approximately $2M consistently every month.
+* **Operational Health:** Operational efficiency is strong, boasting a 45.6% Gross Margin and a 24.8% EBITDA margin.
+* **Budget Variance:** The company is currently underperforming against an aggressive budget by 24%, highlighting a gap in sales performance expectations versus reality.
+* **Liquidity:** The Cash Flow Waterfall visual indicates stable liquidity, with no negative dips in monthly cash flow.
+
+## 🚀 Recommendations for Improvement
+* **Budget Re-calibration:** The 24% negative variance suggests the initial budget was overly aggressive. Future forecasting should be adjusted to align closer to the stable $2M/month historical actuals.
+* **Receivables Monitoring:** Leadership should use the Receivables Aging visual to identify specific regions with collection bottlenecks and tighten credit terms there to improve cash conversion cycles.
 
 ## 👨‍💻 About Me
-I am a data analyst with a strong focus on financial modeling, interactive dashboard design, and translating complex financial datasets into clear, executive-level business strategies.
+I am Ejaz Ahmed, a student at IMI Kolkata with a strong focus on financial modeling, interactive dashboard design, and translating financial datasets into executive-level strategies.
